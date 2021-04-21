@@ -39,6 +39,13 @@ public class ScoreDisplay extends PApplet
 
 	public void stavelines(){
 
+		float range = 75;
+
+		for(float i = 15; i<= range; i = i + 15){
+			float line = map (i, 0, 100, 450, 50);
+			strokeWeight(3);
+			line(100, line, 900, line);
+		}
 	}
 
 	void drawNotes()
