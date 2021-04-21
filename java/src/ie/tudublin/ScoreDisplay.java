@@ -44,9 +44,11 @@ public class ScoreDisplay extends PApplet
 			notes.add(n);
 
 		}
-
 	}
-
+	
+	public void printScores(){
+		
+	}
 
 	public void setup() 
 	{
@@ -64,6 +66,7 @@ public class ScoreDisplay extends PApplet
 		float range = 75;
 
 		for(float i = 15; i<= range; i = i + 15){
+
 			float line = map (i, 0, 100, 450, 50);
 			strokeWeight(3);
 			line(100, line, 900, line);
