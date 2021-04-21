@@ -34,7 +34,11 @@ public class ScoreDisplay extends PApplet
 	public void draw()
 	{
 		background(255);
-		
+		stavelines();
+	}
+
+	public void stavelines(){
+
 	}
 
 	void drawNotes()
