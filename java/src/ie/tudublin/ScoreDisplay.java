@@ -23,6 +23,9 @@ public class ScoreDisplay extends PApplet
 		println(i);
 	}
 
+	public void loadScore(){
+	}
+
 	public void setup() 
 	{
 		
