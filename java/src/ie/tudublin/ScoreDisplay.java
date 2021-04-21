@@ -2,7 +2,6 @@ package ie.tudublin;
 
 import java.util.ArrayList;
 
-
 import processing.core.PApplet;
 
 public class ScoreDisplay extends PApplet
