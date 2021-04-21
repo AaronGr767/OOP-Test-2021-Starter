@@ -10,4 +10,7 @@ public class Note{
 		this.duration = duration;	
 	}
 
+	public String toString(){
+		return "Note [note = " + note + "note duration = " + duration +"]";
+	}
 }
