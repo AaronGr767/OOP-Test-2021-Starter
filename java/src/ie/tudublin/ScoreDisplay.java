@@ -24,7 +24,30 @@ public class ScoreDisplay extends PApplet
 	}
 
 	public void loadScore(){
+
+		char a;
+		int d;
+		
+
+		for(int i = 0; i < score.length(); i++){
+
+			a = score.charAt(i);
+
+			if(score.charAt(i + 1) == 2)
+			{
+				d = 2;
+				i++;
+			}else{
+				d = 1;
+			}
+
+			Note n = new Note(a, d);
+			notes.add(n);
+
+		}
+
 	}
+
 
 	public void setup() 
 	{
