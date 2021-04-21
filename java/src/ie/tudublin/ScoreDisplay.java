@@ -27,13 +27,12 @@ public class ScoreDisplay extends PApplet
 
 		char a;
 		int d;
-		
 
 		for(int i = 0; i < score.length(); i++){
 
 			a = score.charAt(i);
 
-			if(score.charAt(i + 1) == 2)
+			if(Character.isDigit(score.charAt(i + 1)) == true)
 			{
 				d = 2;
 				i++;
