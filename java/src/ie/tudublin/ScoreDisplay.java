@@ -45,14 +45,10 @@ public class ScoreDisplay extends PApplet
 
 		}
 	}
-	
-	public void printScores(){
-		
-	}
 
 	public void setup() 
 	{
-		
+		loadScore();
 	}
 
 	public void draw()
